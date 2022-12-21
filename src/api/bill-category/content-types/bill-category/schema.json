@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bill_categories",
+  "info": {
+    "singularName": "bill-category",
+    "pluralName": "bill-categories",
+    "displayName": "BillCategory"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CategoryLabel": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "CategoryDescription": {
+      "type": "string"
+    }
+  }
+}

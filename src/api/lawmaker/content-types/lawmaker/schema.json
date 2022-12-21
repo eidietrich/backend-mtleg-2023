@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lawmakers",
+  "info": {
+    "singularName": "lawmaker",
+    "pluralName": "lawmakers",
+    "displayName": "Lawmaker"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "LawmakerPageText": {
+      "type": "richtext"
+    }
+  }
+}

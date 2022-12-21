@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bills",
+  "info": {
+    "singularName": "bill",
+    "pluralName": "bills",
+    "displayName": "Bill",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Identifier": {
+      "type": "string",
+      "required": true,
+      "regex": "(H|B) \\d+",
+      "unique": true
+    },
+    "isKeyBill": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Explanation": {
+      "type": "string"
+    },
+    "BillPageText": {
+      "type": "richtext"
+    },
+    "bill_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::bill-category.bill-category"
+    }
+  }
+}
