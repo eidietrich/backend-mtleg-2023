@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "guide_texts",
+  "info": {
+    "singularName": "guide-text",
+    "pluralName": "guide-texts",
+    "displayName": "GuideText"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomePageAboveTheFold": {
+      "type": "richtext"
+    },
+    "ParticipationPage": {
+      "type": "richtext"
+    }
+  }
+}

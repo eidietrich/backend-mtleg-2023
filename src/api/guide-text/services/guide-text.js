@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * legal-note service
+ * guide-text service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::legal-note.legal-note');
+module.exports = createCoreService('api::guide-text.guide-text');

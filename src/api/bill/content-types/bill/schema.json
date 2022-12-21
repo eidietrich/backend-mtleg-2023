@@ -33,6 +33,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::bill-category.bill-category"
+    },
+    "legalNoteLink": {
+      "type": "string"
     }
   }
 }

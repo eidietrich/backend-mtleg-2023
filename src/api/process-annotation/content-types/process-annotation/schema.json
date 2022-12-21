@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "process_annotations",
+  "info": {
+    "singularName": "process-annotation",
+    "pluralName": "process-annotations",
+    "displayName": "ProcessAnnotation"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "howBillsMove": {
+      "type": "richtext"
+    }
+  }
+}
