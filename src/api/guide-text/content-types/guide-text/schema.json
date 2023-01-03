@@ -4,7 +4,8 @@
   "info": {
     "singularName": "guide-text",
     "pluralName": "guide-texts",
-    "displayName": "GuideText"
+    "displayName": "GuideText",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,6 +16,15 @@
       "type": "richtext"
     },
     "ParticipationPage": {
+      "type": "richtext"
+    },
+    "HousePageText": {
+      "type": "richtext"
+    },
+    "SenatePageText": {
+      "type": "richtext"
+    },
+    "GovernorPageText": {
       "type": "richtext"
     }
   }

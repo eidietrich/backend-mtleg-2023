@@ -4,7 +4,8 @@
   "info": {
     "singularName": "lawmaker",
     "pluralName": "lawmakers",
-    "displayName": "Lawmaker"
+    "displayName": "Lawmaker",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -18,6 +19,9 @@
     },
     "LawmakerPageText": {
       "type": "richtext"
+    },
+    "LeadershipRole": {
+      "type": "string"
     }
   }
 }
