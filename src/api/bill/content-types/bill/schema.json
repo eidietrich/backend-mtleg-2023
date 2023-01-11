@@ -36,6 +36,12 @@
     },
     "legalNoteLink": {
       "type": "string"
+    },
+    "bill_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::bill-tag.bill-tag",
+      "mappedBy": "bill"
     }
   }
 }

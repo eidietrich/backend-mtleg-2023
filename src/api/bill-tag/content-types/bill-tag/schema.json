@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bill_tags",
+  "info": {
+    "singularName": "bill-tag",
+    "pluralName": "bill-tags",
+    "displayName": "BillTag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tag": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "TagDescription": {
+      "type": "string"
+    },
+    "bill": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::bill.bill",
+      "inversedBy": "bill_tags"
+    }
+  }
+}
