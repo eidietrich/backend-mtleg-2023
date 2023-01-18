@@ -39,9 +39,9 @@
     },
     "bill_tags": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::bill-tag.bill-tag",
-      "mappedBy": "bill"
+      "mappedBy": "bills"
     }
   }
 }

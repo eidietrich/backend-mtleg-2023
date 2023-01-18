@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -20,9 +20,9 @@
     "TagDescription": {
       "type": "string"
     },
-    "bill": {
+    "bills": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::bill.bill",
       "inversedBy": "bill_tags"
     }
